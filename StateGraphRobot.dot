@@ -1,0 +1,120 @@
+digraph state {
+ graph [fontsize=12]
+rankdir=TB;
+"1" -> "4" [label = "visitedRobotpath(20)", color = "firebrick"];
+"2" -> "4" [label = "visitedRobotpath(19)", color = "sienna"];
+"3" -> "4" [label = "visitedRobotpath(18)", color = "SlateBlue4"];
+"1" -> "5" [label = "visitedRobotpath(17)", color = "black"];
+"1" -> "4" [label = "visitedRobotpath(16)", color = "#efdf84"];
+"2" -> "4" [label = "visitedRobotpath(15)", color = "#bdef6b"];
+"3" -> "4" [label = "visitedRobotpath(14)", color = "#5863ee"];
+"3" -> "5" [label = "visitedRobotpath(13)", color = "LightSteelBlue1"];
+"4" -> "5" [label = "visitedRobotpath(12)", color = "gray"];
+"5" -> "5" [label = "visitedRobotpath(11)", color = "#efdf84"];
+"5" -> "4" [label = "visitedRobotpath(10)", color = "#bdef6b"];
+"5" -> "3" [label = "visitedRobotpath(9)", color = "#5863ee"];
+"5" -> "2" [label = "visitedRobotpath(8)", color = "LightSteelBlue1"];
+"5" -> "1" [label = "visitedRobotpath(7)", color = "gray"];
+"4" -> "1" [label = "visitedRobotpath(6)", color = "#efdf84"];
+"3" -> "1" [label = "visitedRobotpath(5)", color = "#bdef6b"];
+"3" -> "2" [label = "visitedRobotpath(4)", color = "#5863ee"];
+"2" -> "2" [label = "visitedRobotpath(3)", color = "LightSteelBlue1"];
+"1" -> "2" [label = "visitedRobotpath(2)", color = "gray"];
+"1" -> "1" [label = "visitedRobotpath(1)", color = "#efdf84"];
+"5" -> "ROOT-NODE" [label = "visitedYsquare", color = "#bdef6b"];
+"1" -> "ROOT-NODE" [label = "visitedXsquare", color = "#5863ee"];
+"5" -> "ROOT-NODE" [label = "yPosition", color = "LightSteelBlue1"];
+"1" -> "ROOT-NODE" [label = "xPosition", color = "gray"];
+"1" -> "4" [label = "visitedPathofRobot(20)", color = "#efdf84"];
+"2" -> "4" [label = "visitedPathofRobot(19)", color = "#bdef6b"];
+"3" -> "4" [label = "visitedPathofRobot(18)", color = "#5863ee"];
+"1" -> "5" [label = "visitedPathofRobot(17)", color = "LightSteelBlue1"];
+"1" -> "4" [label = "visitedPathofRobot(16)", color = "gray"];
+"2" -> "4" [label = "visitedPathofRobot(15)", color = "#efdf84"];
+"3" -> "4" [label = "visitedPathofRobot(14)", color = "#bdef6b"];
+"3" -> "5" [label = "visitedPathofRobot(13)", color = "#5863ee"];
+"4" -> "5" [label = "visitedPathofRobot(12)", color = "LightSteelBlue1"];
+"5" -> "5" [label = "visitedPathofRobot(11)", color = "gray"];
+"5" -> "4" [label = "visitedPathofRobot(10)", color = "#efdf84"];
+"5" -> "3" [label = "visitedPathofRobot(9)", color = "#bdef6b"];
+"5" -> "2" [label = "visitedPathofRobot(8)", color = "#5863ee"];
+"5" -> "1" [label = "visitedPathofRobot(7)", color = "LightSteelBlue1"];
+"4" -> "1" [label = "visitedPathofRobot(6)", color = "gray"];
+"3" -> "1" [label = "visitedPathofRobot(5)", color = "#efdf84"];
+"3" -> "2" [label = "visitedPathofRobot(4)", color = "#bdef6b"];
+"2" -> "2" [label = "visitedPathofRobot(3)", color = "#5863ee"];
+"1" -> "2" [label = "visitedPathofRobot(2)", color = "LightSteelBlue1"];
+"1" -> "1" [label = "visitedPathofRobot(1)", color = "gray"];
+"19" -> "North" [label = "visitedRobotDirections", color = "#efdf84"];
+"18" -> "West" [label = "visitedRobotDirections", color = "#efdf84"];
+"17" -> "West" [label = "visitedRobotDirections", color = "#efdf84"];
+"16" -> "North" [label = "visitedRobotDirections", color = "#efdf84"];
+"15" -> "West" [label = "visitedRobotDirections", color = "#efdf84"];
+"14" -> "West" [label = "visitedRobotDirections", color = "#efdf84"];
+"13" -> "South" [label = "visitedRobotDirections", color = "#efdf84"];
+"12" -> "West" [label = "visitedRobotDirections", color = "#efdf84"];
+"11" -> "West" [label = "visitedRobotDirections", color = "#efdf84"];
+"10" -> "North" [label = "visitedRobotDirections", color = "#efdf84"];
+"9" -> "North" [label = "visitedRobotDirections", color = "#efdf84"];
+"8" -> "North" [label = "visitedRobotDirections", color = "#efdf84"];
+"7" -> "North" [label = "visitedRobotDirections", color = "#efdf84"];
+"6" -> "East" [label = "visitedRobotDirections", color = "#efdf84"];
+"5" -> "East" [label = "visitedRobotDirections", color = "#efdf84"];
+"4" -> "South" [label = "visitedRobotDirections", color = "#efdf84"];
+"3" -> "East" [label = "visitedRobotDirections", color = "#efdf84"];
+"2" -> "East" [label = "visitedRobotDirections", color = "#efdf84"];
+"1" -> "North" [label = "visitedRobotDirections", color = "#efdf84"];
+"7" -> "4" [label = "mazeWallbarriers", color = "#bdef6b"];
+"6" -> "4" [label = "mazeWallbarriers", color = "#bdef6b"];
+"6" -> "2" [label = "mazeWallbarriers", color = "#bdef6b"];
+"6" -> "1" [label = "mazeWallbarriers", color = "#bdef6b"];
+"4" -> "4" [label = "mazeWallbarriers", color = "#bdef6b"];
+"4" -> "3" [label = "mazeWallbarriers", color = "#bdef6b"];
+"4" -> "2" [label = "mazeWallbarriers", color = "#bdef6b"];
+"3" -> "3" [label = "mazeWallbarriers", color = "#bdef6b"];
+"2" -> "5" [label = "mazeWallbarriers", color = "#bdef6b"];
+"2" -> "3" [label = "mazeWallbarriers", color = "#bdef6b"];
+"2" -> "1" [label = "mazeWallbarriers", color = "#bdef6b"];
+"1" -> "3" [label = "mazeWallbarriers", color = "#bdef6b"];
+"5" -> "ROOT-NODE" [label = "yAxisRobot", color = "#5863ee"];
+"4" -> "ROOT-NODE" [label = "yAxisRobot", color = "#5863ee"];
+"3" -> "ROOT-NODE" [label = "yAxisRobot", color = "#5863ee"];
+"2" -> "ROOT-NODE" [label = "yAxisRobot", color = "#5863ee"];
+"1" -> "ROOT-NODE" [label = "yAxisRobot", color = "#5863ee"];
+"7" -> "ROOT-NODE" [label = "xAxisRobot", color = "LightSteelBlue1"];
+"6" -> "ROOT-NODE" [label = "xAxisRobot", color = "LightSteelBlue1"];
+"5" -> "ROOT-NODE" [label = "xAxisRobot", color = "LightSteelBlue1"];
+"4" -> "ROOT-NODE" [label = "xAxisRobot", color = "LightSteelBlue1"];
+"3" -> "ROOT-NODE" [label = "xAxisRobot", color = "LightSteelBlue1"];
+"2" -> "ROOT-NODE" [label = "xAxisRobot", color = "LightSteelBlue1"];
+"1" -> "ROOT-NODE" [label = "xAxisRobot", color = "LightSteelBlue1"];
+"1" -> "5" [label = "exitSquare", color = "gray"];
+"1" -> "1" [label = "entrySquare", color = "#efdf84"];
+"1" [color = "wheat3", style = "filled, solid", shape = "box"]
+"4" [color = "wheat3", style = "filled, solid", shape = "box"]
+"2" [color = "wheat3", style = "filled, solid", shape = "box"]
+"3" [color = "wheat3", style = "filled, solid", shape = "box"]
+"5" [color = "wheat3", style = "filled, solid", shape = "box"]
+"ROOT-NODE" [color = "lightblue", style = "filled, solid", shape = "diamond"]
+"19" [color = "wheat3", style = "filled, solid", shape = "box"]
+"North" [color = "#efdf84", style = "filled, solid", shape = "box"]
+"18" [color = "wheat3", style = "filled, solid", shape = "box"]
+"West" [color = "#efdf84", style = "filled, solid", shape = "box"]
+"17" [color = "wheat3", style = "filled, solid", shape = "box"]
+"16" [color = "wheat3", style = "filled, solid", shape = "box"]
+"15" [color = "wheat3", style = "filled, solid", shape = "box"]
+"14" [color = "wheat3", style = "filled, solid", shape = "box"]
+"13" [color = "wheat3", style = "filled, solid", shape = "box"]
+"South" [color = "#efdf84", style = "filled, solid", shape = "box"]
+"12" [color = "wheat3", style = "filled, solid", shape = "box"]
+"11" [color = "wheat3", style = "filled, solid", shape = "box"]
+"10" [color = "wheat3", style = "filled, solid", shape = "box"]
+"9" [color = "wheat3", style = "filled, solid", shape = "box"]
+"8" [color = "wheat3", style = "filled, solid", shape = "box"]
+"7" [color = "wheat3", style = "filled, solid", shape = "box"]
+"6" [color = "wheat3", style = "filled, solid", shape = "box"]
+"East" [color = "#efdf84", style = "filled, solid", shape = "box"]
+subgraph "cluster_DIRECTIONS" {node [style=filled,color=white]; label="DIRECTIONS"; style=filled;color=lightgrey; North; South; East; West; }
+subgraph "cluster_STATUS_MESSAGE" {node [style=filled,color=white]; label="STATUS_MESSAGE"; style=filled;color=lightgrey; }
+subgraph "cluster_MESSAGE" {node [style=filled,color=white]; label="MESSAGE"; style=filled;color=lightgrey; }
+}

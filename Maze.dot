@@ -1,0 +1,42 @@
+digraph state {
+ graph [fontsize=12]
+rankdir=TB;
+"ROOT-NODE" -> "ROOT-NODE" [label = "visitedRobotpath", color = "firebrick"];
+"1" -> "ROOT-NODE" [label = "visitedYsquare", color = "sienna"];
+"1" -> "ROOT-NODE" [label = "visitedXsquare", color = "SlateBlue4"];
+"7" -> "4" [label = "mazeWallbarriers", color = "black"];
+"6" -> "4" [label = "mazeWallbarriers", color = "black"];
+"6" -> "2" [label = "mazeWallbarriers", color = "black"];
+"6" -> "1" [label = "mazeWallbarriers", color = "black"];
+"4" -> "4" [label = "mazeWallbarriers", color = "black"];
+"4" -> "3" [label = "mazeWallbarriers", color = "black"];
+"4" -> "2" [label = "mazeWallbarriers", color = "black"];
+"3" -> "3" [label = "mazeWallbarriers", color = "black"];
+"2" -> "5" [label = "mazeWallbarriers", color = "black"];
+"2" -> "3" [label = "mazeWallbarriers", color = "black"];
+"2" -> "1" [label = "mazeWallbarriers", color = "black"];
+"1" -> "3" [label = "mazeWallbarriers", color = "black"];
+"5" -> "ROOT-NODE" [label = "yAxisRobot", color = "#efdf84"];
+"4" -> "ROOT-NODE" [label = "yAxisRobot", color = "#efdf84"];
+"3" -> "ROOT-NODE" [label = "yAxisRobot", color = "#efdf84"];
+"2" -> "ROOT-NODE" [label = "yAxisRobot", color = "#efdf84"];
+"1" -> "ROOT-NODE" [label = "yAxisRobot", color = "#efdf84"];
+"7" -> "ROOT-NODE" [label = "xAxisRobot", color = "#bdef6b"];
+"6" -> "ROOT-NODE" [label = "xAxisRobot", color = "#bdef6b"];
+"5" -> "ROOT-NODE" [label = "xAxisRobot", color = "#bdef6b"];
+"4" -> "ROOT-NODE" [label = "xAxisRobot", color = "#bdef6b"];
+"3" -> "ROOT-NODE" [label = "xAxisRobot", color = "#bdef6b"];
+"2" -> "ROOT-NODE" [label = "xAxisRobot", color = "#bdef6b"];
+"1" -> "ROOT-NODE" [label = "xAxisRobot", color = "#bdef6b"];
+"1" -> "5" [label = "exitSquare", color = "#5863ee"];
+"1" -> "1" [label = "entrySquare", color = "LightSteelBlue1"];
+"ROOT-NODE" [color = "lightblue", style = "filled, solid", shape = "diamond"]
+"1" [color = "wheat3", style = "filled, solid", shape = "box"]
+"7" [color = "wheat3", style = "filled, solid", shape = "box"]
+"4" [color = "wheat3", style = "filled, solid", shape = "box"]
+"6" [color = "wheat3", style = "filled, solid", shape = "box"]
+"2" [color = "wheat3", style = "filled, solid", shape = "box"]
+"3" [color = "wheat3", style = "filled, solid", shape = "box"]
+"5" [color = "wheat3", style = "filled, solid", shape = "box"]
+subgraph "cluster_MESSAGE" {node [style=filled,color=white]; label="MESSAGE"; style=filled;color=lightgrey; }
+}
